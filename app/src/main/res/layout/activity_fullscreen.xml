@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.attendance.om.myapplication.FullscreenActivity">
+
+
+
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/gps_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current GPS Loaction"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+
+
+
+            <TextView
+                android:id="@+id/gps_location22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current Google GPS Loaction"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+
+
+    <Button
+        android:id="@+id/btnCheckIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check In"        />
+
+            <Button
+                android:id="@+id/btnCheckOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Out"
+                />
+
+        </LinearLayout>
+
+
+</FrameLayout>
